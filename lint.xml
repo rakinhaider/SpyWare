@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DefaultLocale">
+        <ignore path="src\com\BUET_Arbirary\SpyWare\PhotoActivity.java" />
+    </issue>
+    <issue id="SelectableText">
+        <ignore path="res\layout\gps_show_layout.xml" />
+    </issue>
+</lint>

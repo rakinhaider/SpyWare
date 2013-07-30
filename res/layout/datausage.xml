@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText" >
+
+    <TextView
+        android:id="@+id/tvdata"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Usage:" />
+
+    <TextView
+        android:id="@+id/tvnewdata"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Last saved  Usage :" />
+
+    <TextView
+        android:id="@+id/tvcompare"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Usages from Last modified Date :" />
+
+    <Button
+        android:id="@+id/btnsavew"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/btnBackData"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+</LinearLayout>

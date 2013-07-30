@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="UselessParent" >
+
+        <TableRow android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btnback"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Back"
+                android:width="0dip" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btnHistry"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Histroy"
+                android:width="0dip" />
+
+            <Button
+                android:id="@+id/btnSearches"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Searches"
+                android:width="0dip" />
+        </TableRow>
+
+        <TableRow android:layout_weight="10" >
+
+            <ListView
+                android:id="@+id/listView1"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+            </ListView>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

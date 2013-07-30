@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableRow android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="UPDATE INTERVAL"
+                android:textSize="15dip"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:text="Instant Update"
+                android:textSize="12dip"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/chkboxinstantupdate"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:text="Time Interval"
+                android:textSize="12dip"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtTxt"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="2" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="Minute"
+                android:textSize="12dip"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:text="Data Retrival Settings"
+                android:textSize="15dip"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:text="GPS Location"
+                android:textSize="12dip"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/chkboxGPSLocation"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:text="Contact List"
+                android:textSize="12dip"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/chkboxContactList"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:text="Call History"
+                android:textSize="12dip"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/chkboxCallhistory"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:text="SMS History"
+                android:textSize="12dip"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/chkboxSMSHistory"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:text="Applications"
+                android:textSize="12dip"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/chkboxapplications"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:text="Photos"
+                android:textSize="12dip"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/chkboxphotos"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:text="Browser History"
+                android:textSize="12dip"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/chkboxbrowserhistory"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

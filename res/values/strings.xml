@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spyware</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="mainMenu">
+        <item>GPS Location</item>
+        <item>Contact List</item>
+        <item>Call History</item>
+        <item>SMS History</item>
+        <item>Applications</item>
+        <item>Photos</item>
+        <item>Browser History</item>
+        <item>Battery</item>
+        <item>Packet Data</item>
+        <item>Memmory And CPU Usage</item>
+    </string-array>
+
+</resources>
